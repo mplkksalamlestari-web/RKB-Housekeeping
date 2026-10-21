@@ -46,7 +46,7 @@ body::before{
   background-size:36px 36px;
 }
 
-.app{display:flex; min-height:100vh; position:relative; z-index:1;}
+.app{display:flex; min-height:100vh; position:relative; z-index:auto;} /* z-index:auto agar menu samping (z 40) berada DI ATAS lapisan gelap/buram (z 35) di HP */
 
 .sidebar{
   width:var(--sidebar-w); flex-shrink:0; background:linear-gradient(180deg,var(--navy-900),var(--navy-800) 60%, var(--navy-900));
